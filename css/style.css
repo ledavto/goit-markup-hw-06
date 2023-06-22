@@ -75,8 +75,8 @@ body {
 .container {
   padding-left: 16px;
   padding-right: 16px;
-  min-width: 320px;
-  max-width: 1170px;
+
+  max-width: 396px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,8 +84,8 @@ body {
 .page-header .container {
   align-items: center;
 
-  padding-top: 24px;
-  padding-bottom: 22px;
+  /* padding-top: 24px;
+  padding-bottom: 22px; */
 }
 
 .page-header {
