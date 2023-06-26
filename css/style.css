@@ -284,6 +284,8 @@ body {
 /* ----------------SECTION 4 */
 .section.team {
   background-color: #f4f4fd;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .team.list {
@@ -291,19 +293,23 @@ body {
   flex-wrap: wrap;
   list-style: none;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   width: 264px;
   /*padding-left: auto;
     padding-right: 82px; */
 }
 .card-content {
-  /* padding: 32px 0; */
-  width: 100%;
+  padding: 32px 0;
+  max-width: 232px;
 }
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -350,21 +356,21 @@ body {
 }
 /* --------------------SECTION 5 ------- */
 .customers-item {
-  height: 88px;
-  margin-bottom: 48px;
+  /* height: 88px;
+  margin-bottom: 48px; */
   width: calc((100% - 16px) / 2);
 }
 .customers.list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 72px 16px;
 
   list-style: none;
 }
 
 .section.customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-link {
@@ -558,7 +564,11 @@ body {
 }
 
 .footer-content {
-  /* margin-right: 120px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 268px;
 }
 
 .label-subscribe {
@@ -1027,7 +1037,8 @@ body {
   }
   .contact.list {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 12px;
 
     font-style: none;
     font-weight: 400;
@@ -1110,7 +1121,7 @@ body {
 
   /* ----------------SECTION 5 */
   .customers.list {
-    gap: 24px;
+    gap: 72px 24px;
   }
   .customers-item {
     width: calc((100% - 48px) / 3);
@@ -1138,6 +1149,12 @@ body {
 
   .menu-toggle {
     display: none;
+  }
+
+  .contact.list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
   }
 
   .section.hero {
@@ -1188,6 +1205,7 @@ body {
   /* ---------------------SECTION 3 */
   .section.doing {
     padding-bottom: 120px;
+    padding-top: 120px;
     display: flex;
   }
 
@@ -1204,7 +1222,10 @@ body {
 
   .section.team {
     display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
+
   .team.list {
     flex-wrap: nowrap;
     /* padding-left: 108px;
@@ -1218,6 +1239,12 @@ body {
   /* ----------------SECTION 5 */
   .customers.list {
     flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+  .section.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .customers-item {
     height: 88px;
@@ -1226,8 +1253,8 @@ body {
 
   /* ----------------FOOTER-------------- */
   .container.footer {
-    /* align-items: baseline;
-    margin-right: 120px; */
+    align-items: baseline;
+    /* margin-right: 120px; */
   }
   .footer-subscribe {
     display: flex;
