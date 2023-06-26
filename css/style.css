@@ -88,8 +88,6 @@ body {
 
   align-items: center;
   height: 70px;
-  /* padding-top: 24px;
-  padding-bottom: 22px; */
 }
 
 .page-header {
@@ -377,7 +375,6 @@ body {
 }
 
 .section.customers {
-  /* padding-top: 96px; */
   padding-bottom: 96px;
 }
 
@@ -409,11 +406,6 @@ body {
 
 /* --------------------FOOTER------------- */
 
-/* .footer-social {
-  margin-left: 120px;
-  max-width: 208px;
-} */
-
 .social-footer.list {
   display: flex;
   gap: 16px;
@@ -421,8 +413,6 @@ body {
 
 .footer {
   background-color: var(--textcolor);
-
-  /* padding: 100px 0; */
 }
 
 /* *************MENU******************* */
@@ -554,8 +544,6 @@ body {
   padding-top: 96px;
   padding-bottom: 96px;
   gap: 72px;
-  /* align-items: baseline;
-  margin-right: 120px; */
 }
 
 .footer-text {
@@ -608,40 +596,23 @@ body {
   color: #f4f4fd;
 }
 
-/* .footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 268px;
-} */
-
 .label-subscribe {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--footer-color);
-  /* margin-bottom: 16px; */
-  /* display: flex;
-  flex-direction: column; */
 }
 .footer-subscribe,
 .footer-content,
 .footer-social {
-  /* display: inline-block; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  /* flex-direction: row; */
-
-  /* margin-left: 80px; */
   width: 100%;
 }
 .subscribe-text,
 .footer-social-text {
-  /* margin-bottom: 16px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -662,9 +633,6 @@ body {
   padding-left: 16px;
   border: 1px solid #ffffff;
   background: transparent;
-  /* margin-bottom: 16px; */
-
-  /* width: 264px; */
   width: 100%;
   height: 40px;
   font-size: 12px;
@@ -680,7 +648,6 @@ body {
 }
 
 .button-subscribe {
-  /* max-width: 165px; */
   height: 40px;
   display: inline-flex;
   margin: 0 auto;
@@ -1203,8 +1170,6 @@ body {
 
     flex-direction: column;
     max-width: 453px;
-
-    /* margin-left: 80px; */
   }
   .subscribe-text {
     text-align: left;
@@ -1303,7 +1268,6 @@ body {
 
   /* ---------------------SECTION 3 */
   .section.doing {
-    /* padding-bottom: 120px; */
     display: flex;
   }
 
@@ -1326,9 +1290,6 @@ body {
 
   .team.list {
     flex-wrap: nowrap;
-    /* padding-left: 108px;
-    padding-right: 108px; */
-    /* width: 1128px; */
   }
   .team-item {
     width: calc((100% - 24px * 3) / 4);
@@ -1350,17 +1311,11 @@ body {
   }
 
   /* ----------------FOOTER-------------- */
-  .container.footer {
-    /*align-items: baseline;
-     margin-right: 120px; */
-  }
+
   .footer-subscribe {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    /* margin-left: 80px; */
-    /* width: 100%; */
   }
   .subscribe-form {
     flex-direction: row;
