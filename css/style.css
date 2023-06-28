@@ -369,6 +369,7 @@ body {
 .customers-item {
   width: calc((100% - 16px) / 2);
 }
+
 .customers.list {
   display: flex;
   flex-wrap: wrap;
@@ -379,12 +380,13 @@ body {
 }
 
 .section.customers {
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 
 .customers-link {
   background-color: #ffffff;
-  height: 100%;
+  height: 88px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -501,6 +503,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  font-style: normal;
 }
 
 .mobile-menu .link {
@@ -525,6 +528,7 @@ body {
 }
 
 .tel {
+  color: #4d5ae5;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -545,6 +549,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: inherit;
   padding-top: 96px;
   padding-bottom: 96px;
   gap: 72px;
@@ -594,6 +599,7 @@ body {
   color: var(--primary-logocolor);
   list-style: none;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .logo-footer-text {
@@ -1045,9 +1051,6 @@ body {
   .container {
     max-width: 768px;
   }
-  .modal {
-    min-width: 408px;
-  }
 
   .menu-nav.list {
     font-weight: 500;
@@ -1180,6 +1183,7 @@ body {
 
   .footer-content {
     max-width: 264px;
+    align-items: normal;
   }
 
   .footer-social {
@@ -1309,9 +1313,6 @@ body {
     padding-bottom: 120px;
   }
 
-  .team.list {
-    flex-wrap: nowrap;
-  }
   .team-item {
     width: calc((100% - 24px * 3) / 4);
   }
@@ -1322,12 +1323,15 @@ body {
     gap: 24px;
   }
 
+  .pref-text {
+    text-align: center;
+  }
+
   .section.customers {
     /* padding-top: 120px; */
     padding-bottom: 120px;
   }
   .customers-item {
-    height: 88px;
     width: calc((100% - 16px) / 2);
   }
 
