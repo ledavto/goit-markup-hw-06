@@ -1335,10 +1335,6 @@ body {
     gap: 24px;
   }
 
-  .pref-text {
-    text-align: center;
-  }
-
   .section.customers {
     /* padding-top: 120px; */
     padding-bottom: 120px;
