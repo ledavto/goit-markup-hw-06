@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="modal-title">
+          <h1>Your Order</h1>
+          <button type="button" class="modal-btn-close" data-modal-close>
+            <svg class="icon-modal-btn" width="24" height="24">
+              <use href="/images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+        </div>
+
+        <form class="form-modal">
+          <div class="form-items-checkbox">
+            <input
+              class="modal-checkbox visually-hidden"
+              type="checkbox"
+              id="cabbage-basket"
+              name="cabbage-basket"
+              value="true"
+            />
+
+            <label class="modal-label-checkbox" for="cabbage-basket">
+              Cabbage Basket
+            </label>
+            <p>Plant</p>
+            <img scr="./images" alt="Cabbage Basket" />
+          </div>
+
+          <div class="form-items">
+            <label class="modal-label" for="full-name"> Full name...</label>
+            <div class="modal-container-input">
+              <input
+                class="modal-text"
+                id="full-name"
+                type="text"
+                name="full-name"
+              />
+            </div>
+          </div>
+
+          <div class="form-items">
+            <label class="modal-label" for="enter-email"> Enter email...</label>
+            <div class="modal-container-input">
+              <input
+                class="modal-text"
+                id="enter-email"
+                type="email"
+                name="enter-email"
+              />
+            </div>
+          </div>
+
+          <div class="form-items">
+            <label class="modal-label" for="card"> Enter card...</label>
+            <div class="modal-container-input">
+              <input class="modal-text" id="card" type="text" name="card" />
+            </div>
+          </div>
+
+          <div class="form-items-comment">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-text-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <button class="modal-button" type="submit">
+            <span class="modal-btn-txt">Send</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
