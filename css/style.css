@@ -114,13 +114,6 @@ body {
   text-decoration: none;
 }
 
-.logo {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
-}
-
 .menu {
   display: flex;
   align-items: center;
@@ -471,8 +464,6 @@ body {
 .icon-mobile-btn {
   top: 0;
   left: 0;
-  /* fill: #2e2f42;
-  z-index: 999; */
 }
 
 .menu-toggle-close {
@@ -683,8 +674,6 @@ body {
 */
 
 
-
-
 /* ********************************************** */
 /* ---------------------PORFOLIO----------------- */
 .filter-section {
@@ -706,7 +695,6 @@ body {
 .work-items {
   width: 100%;
   min-width: 396px;
-  /* width: calc((100% - 78px) / 3); */
 }
 
 .work-items:hover {
@@ -740,8 +728,6 @@ body {
 .work-img-overflow {
   position: relative;
   overflow: hidden;
-}
-.work-cover-block {
 }
 
 .work-cover-text {
@@ -976,11 +962,6 @@ body {
   fill: #4d5ae5;
 }
 
-.modal-text:placeholder-shown {
-  /* position: relative; 
-  border: 1px solid #4d5ae5;*/
-}
-
 .privacy-text {
   height: 16px;
   width: 16px;
@@ -1036,9 +1017,6 @@ body {
   color: var(--color-customers);
 }
 .icon-checkbox {
-  /* border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  //fill: #fcfcfc; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1336,7 +1314,6 @@ body {
   }
 
   .section.customers {
-    /* padding-top: 120px; */
     padding-bottom: 120px;
   }
   .customers-item {
